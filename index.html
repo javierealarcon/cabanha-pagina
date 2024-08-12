@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/fontello.css">
+        <link rel="stylesheet" type="text/css" href="css/preloader.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <script src="js/jquery-3.7.1.min.js"></script>
+        <title>La Cordillera Cabañas</title>
+    </head>
+<body>
+    <!-- inicia preloader de la página -->
+    <div class="loader">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+    </div>
+    <!-- termina el preloader de la página -->
+    
+    <!-- inicio barra de navegación -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand me-auto" href="#">La Cordillera</a>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">La Cordillera</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2 active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <a href="login.html" class="login-button">Cuenta</a>
+            <button class="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <!-- fin de barra de navegación -->
+    
+    <!-- Inicia slider -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">                    
+                <img src="img/cab-inicio.jpg" class="d-block w-100 slider-image-1" alt="slider-image-1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Tu lugar soñado</h5>
+                    <p>Toma esas vacaciones en la tranquilidad de la cordillera</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                    <img src="img/cab1.jpg" class="d-block w-100 slider-image-2" alt="slider-image-2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>La mejor atención</h5>
+                    <p>Despreocupate con nuestro servicio de atención al cliente</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/cab-int1.jpg" class="d-block w-100 slider-image-3" alt="slider-image-3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Tercer slider</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae nostrum tempore ipsum quo. Nemo, temporibus aspernatur. Enim, illum ea eligendi aperiam esse, maxime, possimus neque blanditiis dolorum accusamus commodi cum?.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Termina slider -->
+    
+    <div class="container p-4">
+        <div class="row">
+            <div class="col-lg-12">
+                <h3 class="text-center">Nuestras Cabañas</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- Inicio de tarjeta -->
+    <div class="container py-3">
+        <div class="row">
+            <div class="card-group">
+                <div class="card">
+                    <img src="img/cab.jpg" class="card-img-top" alt="cab">
+                    <div class="card-body">
+                        <h5 class="card-title">Cabaña familiar</h5>
+                        <p class="card-text">Con espacio suficiente para alojar cómodamente a una familia, esta cabaña ofrece todas las comodidades del hogar, incluyendo una cocina totalmente equipada y una sala de estar espaciosa. En el exterior, un balcón con vistas a la montaña o un muelle cercano invita a disfrutar de la naturaleza.</p>
+                        <p class="card-text"><small class="text-body-secondary"></small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/cab1.jpg" class="card-img-top" alt="cab-1">
+                    <div class="card-body">
+                        <h5 class="card-title">Cabaña de pareja</h5>
+                        <p class="card-text">Ideal para una pareja, cuenta con un ambiente cálido y una decoración rústica que invita al descanso. Equipada con todas las comodidades modernas, ofrece un espacio íntimo y confortable, con una hermosa vista a la naturaleza circundante. Es el lugar perfecto para desconectar y disfrutar de la compañía mutua en un entorno tranquilo y privado.</p>
+                        <p class="card-text"><small class="text-body-secondary"></small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/cab2.jpg" class="card-img-top" alt="cab-2">
+                    <div class="card-body">
+                        <h5 class="card-title">Cabaña familia numerosa</h5>
+                        <p class="card-text">Ubicada en un entorno tranquilo rodeado de naturaleza. Esta cabaña ofrece todas las comodidades modernas, incluyendo Wi-Fi, aire acondicionado y televisión, sin perder el encanto rústico que invita a la relajación. Con instalaciones como piscina, parrilla y juegos para niños, es el lugar ideal para desconectar y crear recuerdos inolvidables con tus seres queridos</p>
+                        <p class="card-text"><small class="text-body-secondary"></small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin de tarjeta -->
+    
+    <div class="container py-3">
+        <p class="text-center"><a href="#" class="text-muted">Más información</a></p>
+    </div>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbo">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 btn-holder"></div>
+                <div class="col-sm-6">
+                    <h1 class="text-light">La Cordillera Cabañas</h1>
+                    <p class="text-justify text-light">El Lago Futalaufquen, ubicado en la provincia del Chubut en
+                        Argentina, es un espejo de agua de origen glaciar que se encuentra dentro del Parque 
+                        Nacional Los Alerces. Su nombre proviene del mapudungún y significa "lago grande". 
+                        Con una profundidad media de 150 metros y una extensión de 4460 hectáreas, este lago 
+                        se conecta con el Lago Verde a través del río Arrayanes. Además de su impresionante 
+                        belleza natural, el lago es hogar de una rica biodiversidad, incluyendo especies 
+                        endémicas como el pato de anteojos y diversas especies de truchas, lo que lo convierte 
+                        en un destino popular para la pesca deportiva.</p>
+                    <a href="#" class="btn btn-primary">Más información</a>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Inicia Servicios -->
+    <div class="container text-center">
+        <div class="row py-4">
+            <div class="col col-sm-12 col-md-6 col-lg-6">
+                <img src="img/grid-img.png" class="img-fluid grid-img" alt="grid-img">
+            </div>
+            <div class="col col-sm-12 col-md-6 col-lg-6">
+                <!-- Inicia acordeón -->
+                <div class="accordion" id="servicios">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Alquiler de cabañas
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae hic fugiat voluptate ut quisquam fuga similique quae iusto, laudantium maiores nam. Voluptatem nemo nesciunt quod, nisi fugit consectetur ad deserunt.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Alquiler de camping
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt minima voluptas fuga placeat odit, itaque, quis nesciunt accusantium molestiae quibusdam magnam quos sequi totam voluptatum autem earum. Totam, id error.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Alquiler de kayak
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                lorem
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Inicia contactanos -->
+    <section id="contact">
+        <div class="container">
+            <div class="row py-4">
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div id="map"></div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="card shadow p-3 mb-5 bg-white rounded">
+                        <div class="card-body">
+                            <form class="form-group" action="" method="post">
+                                <div class="py-2">
+                                    <input type="text" name="nombre" class="from-control" placeholder="nombre" required>
+                                </div>
+                                <div class="py-2">
+                                    <input type="text" name="email" class="from-control" placeholder="Email" required>
+                                </div>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <label class="input-group-text">Servicios</label>
+                                    </div>
+                                    <select class="custom-select" name="servicio">
+                                        <option selected>Selecciona opción</option>
+                                        <option value="1">Alquiler de cabaña</option>
+                                        <option value="2">Alquiler de camping</option>
+                                        <option value="3">Alquiler de kayak</option>
+                                    </select>
+                                </div>
+                                <hr>
+                                <input type="submit" name="submit" value="Enviar" class="btn btn-primary btn-lg btn-block">
+                            </form>
+                            <p class="text-left"><span class="icon-phone"></span>Teléfono :<a href="=tel:+54929451231234"> +54 9 2945 123-1234</a></p>
+                            <p class="text-left"><span class="icon-mail"></span>Email :<a href="mailto:contacto@lacordillera.com"> contacto@lacordillera.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="bg-card bg-light text-dark pt-5 pb-4">
+        <div class="container text-center text-md-start">
+            <div class="row text-center text-md-start">
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Nosotros</h5>
+                    <hr class="mb-4">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ipsam nisi voluptatem 
+                        maxime architecto ipsa sunt atque repellendus, dolores molestiae ipsum. Iure ducimus 
+                        numquam a illum, quia voluptatum ab eligendi.</p>
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Usuario</h5>
+                    <hr class="mb-4">
+                    <p><a href="#" class="text-dark">Tu cuenta</a></p>
+                    <p><a href="#" class="text-dark">Tus servicios</a></p>
+                    <p><a href="#" class="text-dark">Manejo de cuenta</a></p>
+                    <p><a href="#" class="text-dark">Ayuda</a></p>
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Contacto</h5>
+                    <hr class="mb-4">
+                    <p><li class="icon-map-o me-3">Trevelin, Chubut</li></p>
+                    <p><li class="icon-whatsapp me-3">+54 9 2945 123-1234</li></p>
+                    <p><li class="icon-mail me-3">contacto@lacordillera.com</li></p>
+                </div>
+                <hr class="mb-4">
+                <div class="text-center mb-2">
+                    <p class="icon-copyright">Copyright Todos los derechos reservados <a href="https://linkedin.com/in/javierealarcon"><strong class="text-primary">Alarcón Javier E.</strong></a></p>
+                </div>
+                <div class="text-center">
+                    <ul class="list-unstyled list-inline">
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com" class="text-dark"><i class="icon-instagram"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/" class="text-dark"><i class="icon-facebook-official"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://linkedin.com/in/javierealarcon" class="text-dark"><i class="icon-linkedin-squared"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+        var map;
+        var lugar = {lat: -43.079877, lng: -71.4679359}
+        function initMap(){
+            map = new google.maps.Map(document.getElementById('map'),{
+                center: {lat: -43.079877, lng: -71.4679359},
+                zoom: 13
+            });
+            //var marker = new.google.maps.Marker({
+            //    position: lugar,
+            //    map: map,
+            //    title: 'La Cordillera'
+            //})
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLTSukAoUZfj2947RAFW0H0kuT_lthmt0&callback=initMap"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/preloader.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
