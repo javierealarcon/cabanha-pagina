@@ -1,2 +1,2 @@
-# clinica-pagina
- prototipo pagina de una clinica
+# cabanha-pagina
+ prototipo pagina de cabañas
